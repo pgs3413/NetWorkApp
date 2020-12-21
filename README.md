@@ -20,3 +20,5 @@ chapter09 : 主机扫描，端口扫描，命令执行
 chapter10 : 利用jpcap包进行网络抓包
 
 chapter11 : 利用jpcap包进行网络发包
+
+chapter12 : RMI程序设计，客户端和服务器端有一套完全相同的接口（包名也要一致），继承Remote接口。服务器端：实现接口，实现具体功能，继承UnicastRemoteObject,发布服务。客户端：获得服务，得到代理类，调用这些代理类。
